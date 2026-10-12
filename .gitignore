@@ -1,0 +1,27 @@
+# Secret tokens & environment files
+HF_TOKEN
+.env
+.env.*
+
+# Python bytecode and cache
+# Note: git does NOT ignore __pycache__ by default unless specified here
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python distribution / packaging
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# IDE & OS files
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
